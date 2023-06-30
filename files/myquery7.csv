@@ -1,0 +1,132 @@
+registered_state,company_class,no_of_companies,rank
+Nagaland,Private,560,1
+Nagaland,Public,49,2
+Nagaland,Private(One Person Company),11,3
+Karnataka,Private,117309,1
+Karnataka,Public,4811,2
+Karnataka,Private(One Person Company),3191,3
+Karnataka,,468,4
+Dadra and Nagra Haveli,Private,442,1
+Dadra and Nagra Haveli,Public,104,2
+Dadra and Nagra Haveli,Private(One Person Company),4,3
+Kerala,Private,51449,1
+Kerala,Public,3876,2
+Kerala,Private(One Person Company),698,3
+Kerala,,75,4
+Tamil Nadu,Private,137173,1
+Tamil Nadu,Public,11237,2
+Tamil Nadu,Private(One Person Company),2127,3
+Tamil Nadu,,334,4
+Andhra Pradesh,Private,30538,1
+Andhra Pradesh,Public,1610,2
+Andhra Pradesh,Private(One Person Company),830,3
+Andhra Pradesh,,72,4
+Lakshadweep,Private,17,1
+Lakshadweep,Public,1,2
+Madhya Pradesh,Private,37677,1
+Madhya Pradesh,Public,2941,2
+Madhya Pradesh,Private(One Person Company),676,3
+Madhya Pradesh,,24,4
+Punjab,Private,28834,1
+Punjab,Public,3230,2
+Punjab,Private(One Person Company),359,3
+Punjab,,17,4
+Manipur,Private,884,1
+Manipur,Public,129,2
+Manipur,Private(One Person Company),42,3
+Manipur,,1,4
+Goa,Private,8421,1
+Goa,Public,347,2
+Goa,Private(One Person Company),165,3
+Goa,,9,4
+Mizoram,Private,149,1
+Mizoram,Public,17,2
+Mizoram,Private(One Person Company),9,3
+Himachal Pradesh,Private,5896,1
+Himachal Pradesh,Public,495,2
+Himachal Pradesh,Private(One Person Company),199,3
+Himachal Pradesh,,1,4
+Haryana,Private,47457,1
+Haryana,Public,1886,2
+Haryana,Private(One Person Company),1268,3
+Haryana,,428,4
+Jammu and Kashmir,Private,5430,1
+Jammu and Kashmir,Public,329,2
+Jammu and Kashmir,Private(One Person Company),218,3
+Jammu and Kashmir,,1,4
+Jharkhand,Private,13899,1
+Jharkhand,Public,736,2
+Jharkhand,Private(One Person Company),437,3
+Jharkhand,,6,4
+Orissa,Private,24337,1
+Orissa,Public,1944,2
+Orissa,Private(One Person Company),729,3
+Orissa,,13,4
+Arunachal Pradesh,Private,582,1
+Arunachal Pradesh,Public,37,2
+Arunachal Pradesh,Private(One Person Company),10,3
+Gujarat,Private,95834,1
+Gujarat,Public,8758,2
+Gujarat,Private(One Person Company),887,3
+Gujarat,,75,4
+Uttaranchal,Private,8021,1
+Uttaranchal,Public,635,2
+Uttaranchal,Private(One Person Company),260,3
+Uttaranchal,,8,4
+Sikkim,Private,2,1
+Delhi,Private,322131,1
+Delhi,Public,20258,2
+Delhi,Private(One Person Company),3894,3
+Delhi,,1947,4
+Chandigarh,Private,13248,1
+Chandigarh,Public,1643,2
+Chandigarh,Private(One Person Company),124,3
+Chandigarh,,3,4
+Pondicherry,Private,3137,1
+Pondicherry,Public,276,2
+Pondicherry,Private(One Person Company),39,3
+Pondicherry,,2,4
+Andaman and Nicobar Islands,Private,460,1
+Andaman and Nicobar Islands,Private(One Person Company),11,2
+Andaman and Nicobar Islands,Public,9,3
+Rajasthan,Private,56995,1
+Rajasthan,Public,3495,2
+Rajasthan,Private(One Person Company),839,3
+Rajasthan,,41,4
+Assam,Private,10816,1
+Assam,Public,1031,2
+Assam,Private(One Person Company),229,3
+Assam,,2,4
+Chattisgarh,Private,9835,1
+Chattisgarh,Public,665,2
+Chattisgarh,Private(One Person Company),198,3
+Chattisgarh,,5,4
+Meghalaya,Private,911,1
+Meghalaya,Public,196,2
+Meghalaya,Private(One Person Company),8,3
+Daman and Diu,Private,318,1
+Daman and Diu,Public,73,2
+Daman and Diu,Private(One Person Company),6,3
+Maharashtra,Private,359291,1
+Maharashtra,Public,29441,2
+Maharashtra,Private(One Person Company),5252,3
+Maharashtra,,1298,4
+Telangana,Private,103757,1
+Telangana,Public,6853,2
+Telangana,Private(One Person Company),1748,3
+Telangana,,43,4
+West Bengal,Private,186770,1
+West Bengal,Public,18988,2
+West Bengal,Private(One Person Company),1151,3
+West Bengal,,96,4
+Bihar,Private,32176,1
+Bihar,Public,2207,2
+Bihar,Private(One Person Company),1527,3
+Bihar,,10,4
+Tripura,Private,551,1
+Tripura,Public,57,2
+Tripura,Private(One Person Company),37,3
+Uttar Pradesh,Private,103957,1
+Uttar Pradesh,Public,9248,2
+Uttar Pradesh,Private(One Person Company),3033,3
+Uttar Pradesh,,99,4
