@@ -10,7 +10,7 @@ st.subheader("Company stats visualization using Streamlit by Viznu")
 
 # query 1
 st.text("1. Based on the sector display the number of companies")
-df1 = pd.read_csv(r"files\query1.csv")
+df1 = pd.read_csv(r"query1.csv")
 t1,t2 = st.tabs(["Chart","Data"])
 with t1:
     fig = px.bar(df1, x="no_of_companies", y="COMPANY_CLASS", orientation="h")      
@@ -25,7 +25,7 @@ t2.dataframe(df1)
 
 # query 2
 st.text("2. List the number of companies that had been registered in each decade")
-df2 = pd.read_csv(r"files\query2.csv")
+df2 = pd.read_csv(r"query2.csv")
 
 df2 = df2.drop([19,20], axis=0)
 t1,t2 = st.tabs(["Chart","Data"])
@@ -40,7 +40,7 @@ t2.dataframe(df2)
 
 # query 3
 st.text("3. Find top 5 companies with highest paid up capital as a list in each leap year after 2000")
-df3 = pd.read_csv(r"files\query3.csv")
+df3 = pd.read_csv(r"query3.csv")
 df3.drop([47,48], axis=0, inplace=True)
 df3 = df3.drop(['rank'], axis=1)
 
@@ -62,7 +62,7 @@ with t1:
 
 # query 4
 st.text("4. Find top 5 companies that has highest paid up capital in each state")
-df4 = pd.read_csv(r"files\query4.csv")
+df4 = pd.read_csv(r"query4.csv")
 df4 = df4.drop(["corporate_identification_number","rank"], axis=1)
 
 exp = st.expander("Data")
@@ -97,7 +97,7 @@ for state in states:
 
 # query 5
 st.text("5. Which state has highest companies registered?")
-df5 = pd.read_csv(r"files\query5.csv")
+df5 = pd.read_csv(r"query5.csv")
 t1,t2 = st.tabs(["Chart","Data"])
 with t1:
     fig = px.bar(df5, x="REGISTERED_STATE", y="no_of_companies", title="Number of companies in each state", color="REGISTERED_STATE")
@@ -115,7 +115,7 @@ with t2:
 
 # query 6
 st.text("6. Find the year on which each state has their maximum registration")
-df6 = pd.read_csv(r"files\query6.csv")
+df6 = pd.read_csv(r"query6.csv")
 t1,t2 = st.tabs(["Chart","Data"])
 
 with t1:
@@ -131,7 +131,7 @@ with t2:
 
 # query 7
 st.text("7. Find the sector that is most common in each state")
-df7 = pd.read_csv(r"files\myquery7.csv")
+df7 = pd.read_csv(r"myquery7.csv")
 df7 = df7.dropna()
 df7 = df7.drop(['rank'], axis=1)
 st.dataframe(df7)
@@ -158,7 +158,7 @@ for state in states:
 
 # query 8
 st.text("8. Based on sub_category give the count for companies in each state")
-df8 = pd.read_csv(r"files\query8.csv")
+df8 = pd.read_csv(r"query8.csv")
 states = df8['REGISTERED_STATE'].unique()
 
 ch  = st.selectbox("Select your state", states, key="state_select" )
@@ -179,7 +179,7 @@ for state in states:
 
 # query 9
 st.text("9. List the companies that have been recently enrolled in each state")
-df9 = pd.read_csv(r"files\query9.csv")
+df9 = pd.read_csv(r"query9.csv")
 df9 = df9.drop(["rank", "corporate_identification_number"], axis=1)
 
 ch  = st.selectbox("Select your state", states, key="state_select_2")
@@ -200,7 +200,7 @@ for state in states:
 
 # query 10
 st.text("10. Find the count of companies per company_status")
-df10 = pd.read_csv(r"files\query10.csv")
+df10 = pd.read_csv(r"query10.csv")
 t1,t2 =  st.tabs(["Chart", "Data"])
 
 with t1:
@@ -215,7 +215,7 @@ with t2:
 
 # query 11
 st.text("11. Find the top 2 companies per principal business activity in 19th century")
-df11 = pd.read_csv(r"files\query11.csv")
+df11 = pd.read_csv(r"query11.csv")
 t1,t2 =  st.tabs(["Chart", "Data"])
 with t1:
     fig = px.bar(df11, x="PRINCIPAL_BUSINESS_ACTIVITY_AS_PER_CIN", y="PAIDUP_CAPITAL", color="COMPANY_NAME", barmode="overlay", height=800)
@@ -237,7 +237,7 @@ t2.dataframe(df11)
 
 # query 12
 st.text("12. Find the company with higest paidup capital in each decade")
-df12 = pd.read_csv(r"files\query12.csv")
+df12 = pd.read_csv(r"query12.csv")
 df12 = df12.drop([18,19], axis=0)
 t1,t2 =  st.tabs(["Chart", "Data"])
 
